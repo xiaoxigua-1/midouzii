@@ -47,7 +47,7 @@ async def Wuhan_pneumonia(ctx):
         h3=i2['features'][0]['attributes']['value']
 
     
-        await ctx.send('全球確診病例:%s\n全球死亡病例:%s\n全球痊癒人數:%s\n台灣確診病例:%s\n\n========='%(h1,h2,h3,AAAA[0]))
+        await ctx.send('武漢肺炎\n全球確診病例:%s\n全球死亡病例:%s\n全球痊癒人數:%s\n台灣確診病例:%s\n\n========='%(h1,h2,h3,AAAA[0]))
 bot.remove_command('help') 
 bot.run('Njc0NjI4NzE2NjU5NDc0NDky.XjrXKA.G7-RQe7kj4ssZYrMhsyvvou2HcY')
 
