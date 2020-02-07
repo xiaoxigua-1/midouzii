@@ -1,1 +1,1 @@
-worker: python bot2.py 
+web: gunicorn Python bot2.py:app –preload
