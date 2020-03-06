@@ -3,3 +3,5 @@ requests
 schedule
 selenium
 beautifulsoup4
+ffmpeg
+opus_api
